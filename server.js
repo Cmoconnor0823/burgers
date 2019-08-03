@@ -14,10 +14,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-// require the route files
-require("./routing/apiRoutes")(app);
-require("./routing/htmlRoutes")(app);
-
 // add in the port listener
 app.listen(PORT, function() {
     console.log("App listening on PORT: " + PORT);
