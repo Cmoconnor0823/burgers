@@ -1,0 +1,19 @@
+{
+  "name": "burgers",
+  "version": "1.0.0",
+  "description": "Node Express Handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cmoconnor0823/burgers.git"
+  },
+  "author": "Caitlin O'Connor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cmoconnor0823/burgers/issues"
+  },
+  "homepage": "https://github.com/Cmoconnor0823/burgers#readme"
+}
