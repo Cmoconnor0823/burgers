@@ -16,7 +16,7 @@
     CREATE TABLE  burgers_table (
         id int NOT NULL AUTO_INCREMENT,
         burger_name VARCHAR(255) NOT NULL,
-        devoured boolean NOT NULL,
+        devoured boolean Default false,
         PRIMARY KEY (id)
     );
 
