@@ -8,9 +8,9 @@ database. --}}
 <h2>Here's what's on the menu!</h2>
 
 <ul>
-    {{#each burger_style}}
+    {{#each burger}}
     {{#unless devoured}}
-    {{> burger_style/burger-block devoured=true}}
+    {{> burger_name/burger-block devoured=true}}
     {{/unless}}
     {{/each}}
 </ul>
@@ -18,9 +18,9 @@ database. --}}
 <h2>Burgers that are currently 86'ed</h2>
 
 <ul>
-    {{#each burger_style}}
+    {{#each burger}}
     {{#if devoured}}
-    {{> burger_style/burger-block devoured=false}}
+    {{> burger_name/burger-block devoured=false}}
     {{/if}}
     {{/each}}
 </ul>
@@ -29,8 +29,8 @@ database. --}}
 <form class="create-form">
 
     <div class="form-group">
-        <lable for="ba"> Burger Name:</lable>
-        <input type="text" id="ba" name="name">
+        <lable for="ca"> Burger Name:</lable>
+        <input type="text" id="ca" burger_name="name">
     </div>
 
     <div class="form-group">

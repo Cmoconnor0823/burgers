@@ -55,6 +55,7 @@ var orm = {
                 throw err;
             }
             cb(result);
+            console.log("orm result" + result);
         });
     },
     // insertOne()
