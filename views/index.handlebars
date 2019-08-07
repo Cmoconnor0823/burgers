@@ -9,9 +9,9 @@ database. --}}
 
 <ul>
     {{#each burgers}}
-        {{#unless devoured}}
-            {{> burgers/burgers-block devoured=false}}
-        {{/unless}}
+    {{#unless devoured}}
+    {{> burgers/burgers-block devoured=false}}
+    {{/unless}}
     {{/each}}
 </ul>
 
@@ -19,9 +19,9 @@ database. --}}
 
 <ul>
     {{#each burgers}}
-        {{#if devoured}}
-            {{> burgers/burgers-block devoured=true}}
-        {{/if}}
+    {{#if devoured}}
+    {{> burgers/burgers-block devoured=true}}
+    {{/if}}
     {{/each}}
 </ul>
 
@@ -32,4 +32,12 @@ database. --}}
         <lable for="ba"> Burger Name:</lable>
         <input type="text" id="ba" name="name">
     </div>
+
+    <div class="form-group">
+        <label for="devoured">Devoured?</label><br>
+        <input type="radio" name="devoured" value="1" checked> This one's been devoured!<br>
+        <input type="radio" name="devoured" value="0"> Eat Me!
+    </div>
+
+    <button type="submit">Add a Burger</button>
 </form>
