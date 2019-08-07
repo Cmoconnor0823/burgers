@@ -16,9 +16,12 @@ var cat = {
         });
     },
     update: function(objColVals, condition, cb) {
-        orm.update
+        orm.update("burgers", objColVals, condition, function(res) {
+            cb(res);
+        });
     }
-}
+    //call a delete orm function here if needed
+};
 
 
 
