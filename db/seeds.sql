@@ -1,8 +1,8 @@
 -- In this file, write insert queries to populate the burgers 
 -- burgers table with at least three entries.
-INSERT INTO burgers_table (burger_name, devoured) VALUES('The Western Burger', false);
-INSERT INTO burgers_table (burger_name, devoured) VALUES('The Surf-n-Turf Burger', true);
-INSERT INTO burgers_table (burger_name, devoured) VALUES('The Black Bean Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES('The Western Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES('The Surf-n-Turf Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES('The Black Bean Burger', false);
 -- Run the schema.sql and seeds.sql files into the 
 -- mysql server from the command line
 

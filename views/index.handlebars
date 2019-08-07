@@ -8,9 +8,9 @@ database. --}}
 <h2>Here's what's on the menu!</h2>
 
 <ul>
-    {{#each burgers}}
+    {{#each burger_style}}
     {{#unless devoured}}
-    {{> burgers/burgers-block devoured=false}}
+    {{> burger_style/burger-block devoured=true}}
     {{/unless}}
     {{/each}}
 </ul>
@@ -18,9 +18,9 @@ database. --}}
 <h2>Burgers that are currently 86'ed</h2>
 
 <ul>
-    {{#each burgers}}
+    {{#each burger_style}}
     {{#if devoured}}
-    {{> burgers/burgers-block devoured=true}}
+    {{> burger_style/burger-block devoured=false}}
     {{/if}}
     {{/each}}
 </ul>

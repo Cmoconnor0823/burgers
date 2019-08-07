@@ -13,7 +13,7 @@
 -- id: an auto incrementing int that serves as the primary key.
 -- burger_name: a string.
 -- devoured: a boolean.
-    CREATE TABLE  burgers_table (
+    CREATE TABLE  burgers (
         id int NOT NULL AUTO_INCREMENT,
         burger_name VARCHAR(255) NOT NULL,
         devoured boolean Default false,

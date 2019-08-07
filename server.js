@@ -4,7 +4,7 @@ var express = require("express");
 //var path = require("path"); moved this to html routes pafe
 // this sets the initial port.. should I be setting this or heroku?
 //answered using process.env.PORT allows heroku to choose and || says or use this port
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 
 var app = express();
 
