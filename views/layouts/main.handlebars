@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-		<link rel="stylesheet" href="public/assets/css/burger_style.css" type="text/css"/>
+		<link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css"/>
 		<title>Burgers!</title>
 		<script src="https://code.jquery.com/jquery.js"></script>
 		
@@ -16,11 +16,12 @@
 $(function() {
     $(".change-devoured").on("click", function(event) {
         var id = $(this).data("id");
-        var newDevoured = $(this).data("newDevoured");
+        var newDevoured = $(this).data("newdevoured");
 
         var newDevouredState = {
             devoured: newDevoured
         };
+		console.log("newDevouredState", newDevouredState)
 
         // Now create the Ajax PUT request
         $.ajax("/api/burgers/" + id, {
