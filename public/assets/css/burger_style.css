@@ -1,24 +1,37 @@
 .bg{
   background: url("/assets/img/817988.jpg");
   background-size: cover;
+  min-height: 1200px;
   color:goldenrod;
   font-size:30px;
+  font-style: oblique;
 }
 h1{
   color:#A60A0A;
   font-size: 60px;
+  font-style: oblique;
 }
 h2{
   color: #F2CEA2;
   font-size:50px;
+  font-style: oblique;
 }
 ul{
-  color: #6F7302;
+  color: #F2CEA2;
   font-size: 40;
+  font-style: oblique;
 }
 button{
-  color: goldenrod;
+  color: #4E89A6;
   background-color:#3C4E59;
+  font-size:20px;
+  font-style: oblique;
+}
+.form-group{
+  color: #4E89A6;
+  font-size:50px;
+  font-style: oblique;
+  font-weight: bolder;
 }
 li {
     padding: 5px;
