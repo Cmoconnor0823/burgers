@@ -1,7 +1,29 @@
+.bg{
+  background: url("/assets/img/817988.jpg");
+  background-size: cover;
+  color:goldenrod;
+  font-size:30px;
+}
+h1{
+  color:#A60A0A;
+  font-size: 60px;
+}
+h2{
+  color: #F2CEA2;
+  font-size:50px;
+}
+ul{
+  color: #6F7302;
+  font-size: 40;
+}
+button{
+  color: goldenrod;
+  background-color:#3C4E59;
+}
 li {
     padding: 5px;
     margin: 5px;
-    background: #f04747;
+    background: #A60A0A;
   }
   
   .label {
