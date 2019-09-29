@@ -17,7 +17,7 @@ To run the application locally  please follow the steps below:
 </h5>
 
 <h3>Tracking Items</h3>
-<h5>When the application is loaded you will be taken to the home page. From here ther are several options. For the first half of the application, you will be shown a list of items/burgers that have been stored in the mysql database. From here you have the option to either eat or re-order any of the avaiable items/burgers. There is also an option to remove any item from the list by clicking the delete button. Directly below is a another option for the user to add in a item/burger of their choosing and an option to set the state of the item. (In this case wether or not the burger has been devoured. This will then add the item to the page without the need to reload). </h5>
+<h5>  When the application is loaded you will be taken to the home page. From here there are several options, for the first half of the application, you will be shown a list of items/burgers that have been stored in the mysql database. Here you have the option to either eat or re-order any of the avaiable items/burgers. There is also an option to remove any item from the list by clicking the delete button. Directly below is a another option for the user to add in a item/burger of their choosing and an option to set the state of the item. In this application's case, the state is set to whether or not the burger has been devoured. This will then add the item to the page without the need to reload. </h5>
 
 
 
