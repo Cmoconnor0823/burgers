@@ -1,7 +1,7 @@
 # burgers
 
 <h1>Description</h1>
-<h5>A simple app to demonstrate the use of a item/burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. This project also follows a MVC design pattern, useing Node and MySQL to query and route data in the app, and Handlebars to generate the HTML.</h5>
+<h5>An app to demonstrate the use of a item/burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. This project also follows a MVC design pattern, useing Node and MySQL to query and route data in the app, and Handlebars to generate the HTML.</h5>
 
 ![Image of application](/public/assets/img/Burger.png)
 
